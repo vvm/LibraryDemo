@@ -1,0 +1,13 @@
+# xcode noise
+build/
+# osx noise
+.DS_Store
+
+xcuserdata
+*.xccheckout
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcbkptlist
+
+#idea
+.idea/
