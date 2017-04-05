@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DyFW.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>DyFrameWork.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
-		</dict>
-		<key>LibraryDemo copy.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>LibraryDemo.xcscheme</key>
 		<dict>
@@ -24,10 +24,10 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>SLib copy.xcscheme</key>
+		<key>SFW.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>5</integer>
 		</dict>
 		<key>StaticLibrary.xcscheme</key>
 		<dict>

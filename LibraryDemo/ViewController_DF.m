@@ -28,7 +28,8 @@
 
 - (IBAction)someAction:(id)sender
 {
-    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"Resource" ofType:@"bundle"]];
+    NSBundle *bundle = [NSBundle bundleForClass:[DemoViewController class]];
+    
     DemoViewController *dvc = [[DemoViewController alloc] initWithNibName:@"DemoViewController" bundle:bundle];
     [self presentViewController:dvc animated:YES completion:^{
         
