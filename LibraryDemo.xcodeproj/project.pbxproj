@@ -13,16 +13,43 @@
 		8528695A1E8F574F00C4257D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852869581E8F574F00C4257D /* Main.storyboard */; };
 		8528695C1E8F574F00C4257D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8528695B1E8F574F00C4257D /* Assets.xcassets */; };
 		8528695F1E8F574F00C4257D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8528695D1E8F574F00C4257D /* LaunchScreen.storyboard */; };
+		853C4E771E948A6E000087E9 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852869D11E8F5B0500C4257D /* DemoViewController.xib */; };
+		853C4E781E948A75000087E9 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 853C4E661E9489D8000087E9 /* cart.png */; };
+		853C4E791E948A75000087E9 /* cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853C4E671E9489D8000087E9 /* cart@2x.png */; };
+		853C4E7A1E948A75000087E9 /* cart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853C4E681E9489D8000087E9 /* cart@3x.png */; };
+		853C4E7B1E948A75000087E9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853C4E641E9489B4000087E9 /* Media.xcassets */; };
+		853C4E891E948B7B000087E9 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852869D01E8F5B0500C4257D /* DemoViewController.m */; };
+		853C4E8A1E948BE1000087E9 /* DemoViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 852869CF1E8F5B0500C4257D /* DemoViewController.h */; };
+		853C4E8F1E948C96000087E9 /* libStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C4E801E948B6F000087E9 /* libStaticLibrary.a */; };
+		853C4E961E948F4B000087E9 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 853C4E701E948A4F000087E9 /* Resource.bundle */; };
+		853C4E9E1E949376000087E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 852869531E8F574F00C4257D /* AppDelegate.m */; };
+		853C4E9F1E949376000087E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 852869501E8F574F00C4257D /* main.m */; };
+		853C4EA11E949376000087E9 /* libStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C4E801E948B6F000087E9 /* libStaticLibrary.a */; };
+		853C4EA31E949376000087E9 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 853C4E701E948A4F000087E9 /* Resource.bundle */; };
+		853C4EA41E949376000087E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8528695D1E8F574F00C4257D /* LaunchScreen.storyboard */; };
+		853C4EA51E949376000087E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8528695B1E8F574F00C4257D /* Assets.xcassets */; };
+		853C4EA61E949376000087E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852869581E8F574F00C4257D /* Main.storyboard */; };
+		853C4EB31E949396000087E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 852869531E8F574F00C4257D /* AppDelegate.m */; };
+		853C4EB41E949396000087E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 852869501E8F574F00C4257D /* main.m */; };
+		853C4EB91E949396000087E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8528695D1E8F574F00C4257D /* LaunchScreen.storyboard */; };
+		853C4EBA1E949396000087E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8528695B1E8F574F00C4257D /* Assets.xcassets */; };
+		853C4EBB1E949396000087E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852869581E8F574F00C4257D /* Main.storyboard */; };
+		853C4ECA1E9493E4000087E9 /* DyFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 853C4EC81E9493E4000087E9 /* DyFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		853C4ECD1E9493E4000087E9 /* DyFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C4EC61E9493E4000087E9 /* DyFrameWork.framework */; };
+		853C4ECE1E9493E4000087E9 /* DyFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 853C4EC61E9493E4000087E9 /* DyFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		853C4ED31E9493FC000087E9 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852869D11E8F5B0500C4257D /* DemoViewController.xib */; };
+		853C4ED41E9493FC000087E9 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 853C4E661E9489D8000087E9 /* cart.png */; };
+		853C4ED51E9493FC000087E9 /* cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853C4E671E9489D8000087E9 /* cart@2x.png */; };
+		853C4ED61E9493FC000087E9 /* cart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853C4E681E9489D8000087E9 /* cart@3x.png */; };
+		853C4ED71E9493FC000087E9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853C4E641E9489B4000087E9 /* Media.xcassets */; };
+		853C4ED81E94944F000087E9 /* DemoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 852869CF1E8F5B0500C4257D /* DemoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		853C4EDB1E949477000087E9 /* DyFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C4EC61E9493E4000087E9 /* DyFrameWork.framework */; };
+		853C4EDD1E9495CE000087E9 /* ViewController_DF.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C4EDC1E9495CE000087E9 /* ViewController_DF.m */; };
+		853C4EE41E949651000087E9 /* DyFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 853C4EC61E9493E4000087E9 /* DyFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		853C4EE61E949837000087E9 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852869D01E8F5B0500C4257D /* DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		852869BB1E8F594300C4257D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 852869B71E8F594300C4257D /* Bundle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 852869841E8F58EE00C4257D;
-			remoteInfo = Bundle;
-		};
 		852869C11E8F594800C4257D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 852869BD1E8F594800C4257D /* DyFrameWork.xcodeproj */;
@@ -37,17 +64,87 @@
 			remoteGlobalIDString = 852869971E8F591000C4257D;
 			remoteInfo = StaticFrameWork;
 		};
-		852869CD1E8F595A00C4257D /* PBXContainerItemProxy */ = {
+		853C4E8D1E948BFE000087E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 852869C91E8F595A00C4257D /* StaticLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8528696F1E8F58C900C4257D;
+			containerPortal = 852869441E8F574F00C4257D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853C4E7F1E948B6F000087E9;
 			remoteInfo = StaticLibrary;
+		};
+		853C4E941E948F42000087E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852869441E8F574F00C4257D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853C4E6F1E948A4F000087E9;
+			remoteInfo = Resource;
+		};
+		853C4E991E949376000087E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852869441E8F574F00C4257D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853C4E6F1E948A4F000087E9;
+			remoteInfo = Resource;
+		};
+		853C4E9B1E949376000087E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852869441E8F574F00C4257D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853C4E7F1E948B6F000087E9;
+			remoteInfo = StaticLibrary;
+		};
+		853C4ECB1E9493E4000087E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852869441E8F574F00C4257D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853C4EC51E9493E4000087E9;
+			remoteInfo = DyFrameWork;
+		};
+		853C4ED91E94946C000087E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852869441E8F574F00C4257D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853C4EC51E9493E4000087E9;
+			remoteInfo = DyFrameWork;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		853C4E7E1E948B6F000087E9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				853C4E8A1E948BE1000087E9 /* DemoViewController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4ED21E9493E4000087E9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				853C4ECE1E9493E4000087E9 /* DyFrameWork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4EE51E949651000087E9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				853C4EE41E949651000087E9 /* DyFrameWork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		8528694C1E8F574F00C4257D /* LibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8528694C1E8F574F00C4257D /* SLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		852869501E8F574F00C4257D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		852869521E8F574F00C4257D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		852869531E8F574F00C4257D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,14 +154,69 @@
 		8528695B1E8F574F00C4257D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8528695E1E8F574F00C4257D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		852869601E8F574F00C4257D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		852869B71E8F594300C4257D /* Bundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bundle.xcodeproj; path = Bundle/Bundle.xcodeproj; sourceTree = "<group>"; };
 		852869BD1E8F594800C4257D /* DyFrameWork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DyFrameWork.xcodeproj; path = DyFrameWork/DyFrameWork.xcodeproj; sourceTree = "<group>"; };
 		852869C31E8F594E00C4257D /* StaticFrameWork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticFrameWork.xcodeproj; path = StaticFrameWork/StaticFrameWork.xcodeproj; sourceTree = "<group>"; };
-		852869C91E8F595A00C4257D /* StaticLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLibrary.xcodeproj; path = StaticLibrary/StaticLibrary.xcodeproj; sourceTree = "<group>"; };
+		852869CF1E8F5B0500C4257D /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewController.h; path = ClassFile/DemoViewController.h; sourceTree = SOURCE_ROOT; };
+		852869D01E8F5B0500C4257D /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoViewController.m; path = ClassFile/DemoViewController.m; sourceTree = SOURCE_ROOT; };
+		852869D11E8F5B0500C4257D /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DemoViewController.xib; path = ClassFile/DemoViewController.xib; sourceTree = SOURCE_ROOT; };
+		853C4E641E9489B4000087E9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		853C4E661E9489D8000087E9 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		853C4E671E9489D8000087E9 /* cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cart@2x.png"; sourceTree = "<group>"; };
+		853C4E681E9489D8000087E9 /* cart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cart@3x.png"; sourceTree = "<group>"; };
+		853C4E701E948A4F000087E9 /* Resource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		853C4E721E948A4F000087E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853C4E801E948B6F000087E9 /* libStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		853C4EAA1E949376000087E9 /* SFW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853C4EAB1E949376000087E9 /* LibraryDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LibraryDemo copy-Info.plist"; path = "/Users/vee/Desktop/LibraryDemo/LibraryDemo copy-Info.plist"; sourceTree = "<absolute>"; };
+		853C4EBF1E949396000087E9 /* DFW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853C4EC01E949396000087E9 /* SLib copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SLib copy-Info.plist"; path = "/Users/vee/Desktop/LibraryDemo/SLib copy-Info.plist"; sourceTree = "<absolute>"; };
+		853C4EC61E9493E4000087E9 /* DyFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DyFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		853C4EC81E9493E4000087E9 /* DyFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DyFrameWork.h; sourceTree = "<group>"; };
+		853C4EC91E9493E4000087E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853C4EDC1E9495CE000087E9 /* ViewController_DF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_DF.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		852869491E8F574F00C4257D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4ECD1E9493E4000087E9 /* DyFrameWork.framework in Frameworks */,
+				853C4E8F1E948C96000087E9 /* libStaticLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4E6D1E948A4F000087E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4E7D1E948B6F000087E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4EA01E949376000087E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4EA11E949376000087E9 /* libStaticLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4EB51E949396000087E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4EDB1E949477000087E9 /* DyFrameWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4EC21E9493E4000087E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,19 +229,27 @@
 		852869431E8F574F00C4257D = {
 			isa = PBXGroup;
 			children = (
-				852869C91E8F595A00C4257D /* StaticLibrary.xcodeproj */,
 				852869C31E8F594E00C4257D /* StaticFrameWork.xcodeproj */,
 				852869BD1E8F594800C4257D /* DyFrameWork.xcodeproj */,
-				852869B71E8F594300C4257D /* Bundle.xcodeproj */,
 				8528694E1E8F574F00C4257D /* LibraryDemo */,
+				853C4E711E948A4F000087E9 /* Resource */,
+				853C4E811E948B6F000087E9 /* StaticLibrary */,
+				853C4EC71E9493E4000087E9 /* DyFrameWork */,
 				8528694D1E8F574F00C4257D /* Products */,
+				853C4EAB1E949376000087E9 /* LibraryDemo copy-Info.plist */,
+				853C4EC01E949396000087E9 /* SLib copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		8528694D1E8F574F00C4257D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8528694C1E8F574F00C4257D /* LibraryDemo.app */,
+				8528694C1E8F574F00C4257D /* SLib.app */,
+				853C4E701E948A4F000087E9 /* Resource.bundle */,
+				853C4E801E948B6F000087E9 /* libStaticLibrary.a */,
+				853C4EAA1E949376000087E9 /* SFW.app */,
+				853C4EBF1E949396000087E9 /* DFW.app */,
+				853C4EC61E9493E4000087E9 /* DyFrameWork.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,8 +261,16 @@
 				852869531E8F574F00C4257D /* AppDelegate.m */,
 				852869551E8F574F00C4257D /* ViewController.h */,
 				852869561E8F574F00C4257D /* ViewController.m */,
+				853C4EDC1E9495CE000087E9 /* ViewController_DF.m */,
+				852869CF1E8F5B0500C4257D /* DemoViewController.h */,
+				852869D01E8F5B0500C4257D /* DemoViewController.m */,
+				852869D11E8F5B0500C4257D /* DemoViewController.xib */,
 				852869581E8F574F00C4257D /* Main.storyboard */,
+				853C4E661E9489D8000087E9 /* cart.png */,
+				853C4E671E9489D8000087E9 /* cart@2x.png */,
+				853C4E681E9489D8000087E9 /* cart@3x.png */,
 				8528695B1E8F574F00C4257D /* Assets.xcassets */,
+				853C4E641E9489B4000087E9 /* Media.xcassets */,
 				8528695D1E8F574F00C4257D /* LaunchScreen.storyboard */,
 				852869601E8F574F00C4257D /* Info.plist */,
 				8528694F1E8F574F00C4257D /* Supporting Files */,
@@ -116,14 +284,6 @@
 				852869501E8F574F00C4257D /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		852869B81E8F594300C4257D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				852869BC1E8F594300C4257D /* Bundle.bundle */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		852869BE1E8F594800C4257D /* Products */ = {
@@ -142,33 +302,155 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		852869CA1E8F595A00C4257D /* Products */ = {
+		853C4E711E948A4F000087E9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				852869CE1E8F595A00C4257D /* libStaticLibrary.a */,
+				853C4E721E948A4F000087E9 /* Info.plist */,
 			);
-			name = Products;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		853C4E811E948B6F000087E9 /* StaticLibrary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StaticLibrary;
+			sourceTree = "<group>";
+		};
+		853C4EC71E9493E4000087E9 /* DyFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				853C4EC81E9493E4000087E9 /* DyFrameWork.h */,
+				853C4EC91E9493E4000087E9 /* Info.plist */,
+			);
+			path = DyFrameWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		853C4EC31E9493E4000087E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4ECA1E9493E4000087E9 /* DyFrameWork.h in Headers */,
+				853C4ED81E94944F000087E9 /* DemoViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		8528694B1E8F574F00C4257D /* LibraryDemo */ = {
+		8528694B1E8F574F00C4257D /* SLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 852869631E8F574F00C4257D /* Build configuration list for PBXNativeTarget "LibraryDemo" */;
+			buildConfigurationList = 852869631E8F574F00C4257D /* Build configuration list for PBXNativeTarget "SLib" */;
 			buildPhases = (
 				852869481E8F574F00C4257D /* Sources */,
 				852869491E8F574F00C4257D /* Frameworks */,
 				8528694A1E8F574F00C4257D /* Resources */,
+				853C4ED21E9493E4000087E9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853C4E951E948F42000087E9 /* PBXTargetDependency */,
+				853C4E8E1E948BFE000087E9 /* PBXTargetDependency */,
+				853C4ECC1E9493E4000087E9 /* PBXTargetDependency */,
+			);
+			name = SLib;
+			productName = LibraryDemo;
+			productReference = 8528694C1E8F574F00C4257D /* SLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853C4E6F1E948A4F000087E9 /* Resource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853C4E731E948A4F000087E9 /* Build configuration list for PBXNativeTarget "Resource" */;
+			buildPhases = (
+				853C4E6C1E948A4F000087E9 /* Sources */,
+				853C4E6D1E948A4F000087E9 /* Frameworks */,
+				853C4E6E1E948A4F000087E9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LibraryDemo;
+			name = Resource;
+			productName = Resource;
+			productReference = 853C4E701E948A4F000087E9 /* Resource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		853C4E7F1E948B6F000087E9 /* StaticLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853C4E861E948B6F000087E9 /* Build configuration list for PBXNativeTarget "StaticLibrary" */;
+			buildPhases = (
+				853C4E7C1E948B6F000087E9 /* Sources */,
+				853C4E7D1E948B6F000087E9 /* Frameworks */,
+				853C4E7E1E948B6F000087E9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaticLibrary;
+			productName = StaticLibrary;
+			productReference = 853C4E801E948B6F000087E9 /* libStaticLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		853C4E971E949376000087E9 /* SFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853C4EA71E949376000087E9 /* Build configuration list for PBXNativeTarget "SFW" */;
+			buildPhases = (
+				853C4E9C1E949376000087E9 /* Sources */,
+				853C4EA01E949376000087E9 /* Frameworks */,
+				853C4EA21E949376000087E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853C4E981E949376000087E9 /* PBXTargetDependency */,
+				853C4E9A1E949376000087E9 /* PBXTargetDependency */,
+			);
+			name = SFW;
 			productName = LibraryDemo;
-			productReference = 8528694C1E8F574F00C4257D /* LibraryDemo.app */;
+			productReference = 853C4EAA1E949376000087E9 /* SFW.app */;
 			productType = "com.apple.product-type.application";
+		};
+		853C4EAC1E949396000087E9 /* DFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853C4EBC1E949396000087E9 /* Build configuration list for PBXNativeTarget "DFW" */;
+			buildPhases = (
+				853C4EB11E949396000087E9 /* Sources */,
+				853C4EB51E949396000087E9 /* Frameworks */,
+				853C4EB71E949396000087E9 /* Resources */,
+				853C4EE51E949651000087E9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853C4EDA1E94946C000087E9 /* PBXTargetDependency */,
+			);
+			name = DFW;
+			productName = LibraryDemo;
+			productReference = 853C4EBF1E949396000087E9 /* DFW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853C4EC51E9493E4000087E9 /* DyFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853C4ECF1E9493E4000087E9 /* Build configuration list for PBXNativeTarget "DyFrameWork" */;
+			buildPhases = (
+				853C4EC11E9493E4000087E9 /* Sources */,
+				853C4EC21E9493E4000087E9 /* Frameworks */,
+				853C4EC31E9493E4000087E9 /* Headers */,
+				853C4EC41E9493E4000087E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DyFrameWork;
+			productName = DyFrameWork;
+			productReference = 853C4EC61E9493E4000087E9 /* DyFrameWork.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -180,6 +462,18 @@
 				ORGANIZATIONNAME = None;
 				TargetAttributes = {
 					8528694B1E8F574F00C4257D = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					853C4E6F1E948A4F000087E9 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					853C4E7F1E948B6F000087E9 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					853C4EC51E9493E4000087E9 = {
 						CreatedOnToolsVersion = 8.3;
 						ProvisioningStyle = Automatic;
 					};
@@ -198,10 +492,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 852869B81E8F594300C4257D /* Products */;
-					ProjectRef = 852869B71E8F594300C4257D /* Bundle.xcodeproj */;
-				},
-				{
 					ProductGroup = 852869BE1E8F594800C4257D /* Products */;
 					ProjectRef = 852869BD1E8F594800C4257D /* DyFrameWork.xcodeproj */;
 				},
@@ -209,26 +499,20 @@
 					ProductGroup = 852869C41E8F594E00C4257D /* Products */;
 					ProjectRef = 852869C31E8F594E00C4257D /* StaticFrameWork.xcodeproj */;
 				},
-				{
-					ProductGroup = 852869CA1E8F595A00C4257D /* Products */;
-					ProjectRef = 852869C91E8F595A00C4257D /* StaticLibrary.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
-				8528694B1E8F574F00C4257D /* LibraryDemo */,
+				8528694B1E8F574F00C4257D /* SLib */,
+				853C4E6F1E948A4F000087E9 /* Resource */,
+				853C4E7F1E948B6F000087E9 /* StaticLibrary */,
+				853C4E971E949376000087E9 /* SFW */,
+				853C4EAC1E949396000087E9 /* DFW */,
+				853C4EC51E9493E4000087E9 /* DyFrameWork */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		852869BC1E8F594300C4257D /* Bundle.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Bundle.bundle;
-			remoteRef = 852869BB1E8F594300C4257D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		852869C21E8F594800C4257D /* DyFrameWork.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -243,13 +527,6 @@
 			remoteRef = 852869C71E8F594E00C4257D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		852869CE1E8F595A00C4257D /* libStaticLibrary.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libStaticLibrary.a;
-			remoteRef = 852869CD1E8F595A00C4257D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -257,9 +534,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853C4E961E948F4B000087E9 /* Resource.bundle in Resources */,
 				8528695F1E8F574F00C4257D /* LaunchScreen.storyboard in Resources */,
 				8528695C1E8F574F00C4257D /* Assets.xcassets in Resources */,
 				8528695A1E8F574F00C4257D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4E6E1E948A4F000087E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4E7B1E948A75000087E9 /* Media.xcassets in Resources */,
+				853C4E791E948A75000087E9 /* cart@2x.png in Resources */,
+				853C4E771E948A6E000087E9 /* DemoViewController.xib in Resources */,
+				853C4E781E948A75000087E9 /* cart.png in Resources */,
+				853C4E7A1E948A75000087E9 /* cart@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4EA21E949376000087E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4EA31E949376000087E9 /* Resource.bundle in Resources */,
+				853C4EA41E949376000087E9 /* LaunchScreen.storyboard in Resources */,
+				853C4EA51E949376000087E9 /* Assets.xcassets in Resources */,
+				853C4EA61E949376000087E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4EB71E949396000087E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4EB91E949396000087E9 /* LaunchScreen.storyboard in Resources */,
+				853C4EBA1E949396000087E9 /* Assets.xcassets in Resources */,
+				853C4EBB1E949396000087E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4EC41E9493E4000087E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4ED71E9493FC000087E9 /* Media.xcassets in Resources */,
+				853C4ED51E9493FC000087E9 /* cart@2x.png in Resources */,
+				853C4ED31E9493FC000087E9 /* DemoViewController.xib in Resources */,
+				853C4ED41E9493FC000087E9 /* cart.png in Resources */,
+				853C4ED61E9493FC000087E9 /* cart@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +599,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		853C4E6C1E948A4F000087E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4E7C1E948B6F000087E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4E891E948B7B000087E9 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4E9C1E949376000087E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4E9E1E949376000087E9 /* AppDelegate.m in Sources */,
+				853C4E9F1E949376000087E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4EB11E949396000087E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4EB31E949396000087E9 /* AppDelegate.m in Sources */,
+				853C4EDD1E9495CE000087E9 /* ViewController_DF.m in Sources */,
+				853C4EB41E949396000087E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C4EC11E9493E4000087E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C4EE61E949837000087E9 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853C4E8E1E948BFE000087E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853C4E7F1E948B6F000087E9 /* StaticLibrary */;
+			targetProxy = 853C4E8D1E948BFE000087E9 /* PBXContainerItemProxy */;
+		};
+		853C4E951E948F42000087E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853C4E6F1E948A4F000087E9 /* Resource */;
+			targetProxy = 853C4E941E948F42000087E9 /* PBXContainerItemProxy */;
+		};
+		853C4E981E949376000087E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853C4E6F1E948A4F000087E9 /* Resource */;
+			targetProxy = 853C4E991E949376000087E9 /* PBXContainerItemProxy */;
+		};
+		853C4E9A1E949376000087E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853C4E7F1E948B6F000087E9 /* StaticLibrary */;
+			targetProxy = 853C4E9B1E949376000087E9 /* PBXContainerItemProxy */;
+		};
+		853C4ECC1E9493E4000087E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853C4EC51E9493E4000087E9 /* DyFrameWork */;
+			targetProxy = 853C4ECB1E9493E4000087E9 /* PBXContainerItemProxy */;
+		};
+		853C4EDA1E94946C000087E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853C4EC51E9493E4000087E9 /* DyFrameWork */;
+			targetProxy = 853C4ED91E94946C000087E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		852869581E8F574F00C4257D /* Main.storyboard */ = {
@@ -392,6 +790,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				INFOPLIST_FILE = LibraryDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.LibraryDemo;
@@ -403,10 +802,151 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				INFOPLIST_FILE = LibraryDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.LibraryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		853C4E741E948A4F000087E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = Resource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Resource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		853C4E751E948A4F000087E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = Resource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Resource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		853C4E871E948B6F000087E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		853C4E881E948B6F000087E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		853C4EA81E949376000087E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "LibraryDemo copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.LibraryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		853C4EA91E949376000087E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "LibraryDemo copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.LibraryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		853C4EBD1E949396000087E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "SLib copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.LibraryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		853C4EBE1E949396000087E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "SLib copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.LibraryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		853C4ED01E9493E4000087E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DyFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.DyFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		853C4ED11E9493E4000087E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DyFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.DyFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -422,11 +962,54 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		852869631E8F574F00C4257D /* Build configuration list for PBXNativeTarget "LibraryDemo" */ = {
+		852869631E8F574F00C4257D /* Build configuration list for PBXNativeTarget "SLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				852869641E8F574F00C4257D /* Debug */,
 				852869651E8F574F00C4257D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853C4E731E948A4F000087E9 /* Build configuration list for PBXNativeTarget "Resource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853C4E741E948A4F000087E9 /* Debug */,
+				853C4E751E948A4F000087E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		853C4E861E948B6F000087E9 /* Build configuration list for PBXNativeTarget "StaticLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853C4E871E948B6F000087E9 /* Debug */,
+				853C4E881E948B6F000087E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		853C4EA71E949376000087E9 /* Build configuration list for PBXNativeTarget "SFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853C4EA81E949376000087E9 /* Debug */,
+				853C4EA91E949376000087E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853C4EBC1E949396000087E9 /* Build configuration list for PBXNativeTarget "DFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853C4EBD1E949396000087E9 /* Debug */,
+				853C4EBE1E949396000087E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853C4ECF1E9493E4000087E9 /* Build configuration list for PBXNativeTarget "DyFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853C4ED01E9493E4000087E9 /* Debug */,
+				853C4ED11E9493E4000087E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

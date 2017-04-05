@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "DemoViewController.h"
+#import <DyFrameWork/DemoViewController.h>
 
 @interface ViewController ()
 

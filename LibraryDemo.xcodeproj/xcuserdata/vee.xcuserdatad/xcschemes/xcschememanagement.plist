@@ -4,15 +4,65 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DyFrameWork.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>LibraryDemo copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>LibraryDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>Resource.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SLib copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>StaticLibrary.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>8528694B1E8F574F00C4257D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>853C4E6F1E948A4F000087E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>853C4E7F1E948B6F000087E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>853C4E971E949376000087E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>853C4EAC1E949396000087E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>853C4EC51E9493E4000087E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
