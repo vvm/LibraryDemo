@@ -29,6 +29,13 @@
 - (IBAction)someAction:(id)sender
 {
     NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"Resource" ofType:@"bundle"]];
+    
+    UIImage *image1 = [UIImage imageNamed:@"cart" inBundle:bundle compatibleWithTraitCollection:nil];
+    NSLog(@"image1:%@",image1);
+    
+    image1 = [UIImage imageNamed:@"arrow" inBundle:bundle compatibleWithTraitCollection:nil];
+    NSLog(@"image1:%@",image1);
+    
     DemoViewController *dvc = [[DemoViewController alloc] initWithNibName:@"DemoViewController" bundle:bundle];
     [self presentViewController:dvc animated:YES completion:^{
         

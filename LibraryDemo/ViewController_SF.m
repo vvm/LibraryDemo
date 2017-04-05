@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <DyFrameWork/DemoViewController.h>
+#import <StaticFW/DemoViewController.h>
 
 @interface ViewController ()
 
@@ -28,7 +28,7 @@
 
 - (IBAction)someAction:(id)sender
 {
-    NSBundle *bundle = [NSBundle bundleForClass:[DemoViewController class]];
+    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"Resource" ofType:@"bundle"]];
     
     UIImage *image1 = [UIImage imageNamed:@"cart" inBundle:bundle compatibleWithTraitCollection:nil];
     NSLog(@"image1:%@",image1);
