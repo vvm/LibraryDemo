@@ -9,7 +9,27 @@
 #import "ViewController.h"
 #import <DyFrameWork/DemoViewController.h>
 
-@interface ViewController ()
+#import <DyFrameWork/Custom1.h>
+
+NSString * const LIB = @"CONST LIB IN HOST";
+
+@interface NSString (C22)
+
+- (void)ll;
+
+@end
+
+@implementation NSString (C22)
+
++ (void)load
+{
+    printf("load from vc");
+}
+
+- (void)ll
+{
+    NSLog(@"in host");
+}
 
 @end
 
@@ -18,6 +38,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString* a = @"a";
+    [a ll];
+    
+    Custom1* c1 = [[Custom1 alloc] init];
+    [c1 xx];
 }
 
 
