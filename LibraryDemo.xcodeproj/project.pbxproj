@@ -67,6 +67,8 @@
 		85E85F461E95EC95008588AB /* Custom1.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E85F431E95EC95008588AB /* Custom1.m */; };
 		85E85F471E95EC95008588AB /* Custom2.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E85F451E95EC95008588AB /* Custom2.m */; };
 		85E85F481E95ECA5008588AB /* Custom1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85E85F421E95EC95008588AB /* Custom1.h */; };
+		85E85F4B1E95EEF1008588AB /* Custom3.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E85F491E95EEF1008588AB /* Custom3.h */; };
+		85E85F4C1E95EEF1008588AB /* Custom3.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E85F4A1E95EEF1008588AB /* Custom3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +212,8 @@
 		85E85F431E95EC95008588AB /* Custom1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Custom1.m; path = DyFrameWork/Custom1.m; sourceTree = SOURCE_ROOT; };
 		85E85F441E95EC95008588AB /* Custom2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Custom2.h; path = DyFrameWork/Custom2.h; sourceTree = SOURCE_ROOT; };
 		85E85F451E95EC95008588AB /* Custom2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Custom2.m; path = DyFrameWork/Custom2.m; sourceTree = SOURCE_ROOT; };
+		85E85F491E95EEF1008588AB /* Custom3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Custom3.h; sourceTree = "<group>"; };
+		85E85F4A1E95EEF1008588AB /* Custom3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Custom3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +362,8 @@
 				85E85F3B1E95EB42008588AB /* Custom1.m */,
 				85E85F3E1E95EB4C008588AB /* Custom2.h */,
 				85E85F3F1E95EB4C008588AB /* Custom2.m */,
+				85E85F491E95EEF1008588AB /* Custom3.h */,
+				85E85F4A1E95EEF1008588AB /* Custom3.m */,
 				853C4EC91E9493E4000087E9 /* Info.plist */,
 			);
 			path = DyFrameWork;
@@ -383,6 +389,7 @@
 				85E85F3C1E95EB42008588AB /* Custom1.h in Headers */,
 				853C4ECA1E9493E4000087E9 /* DyFrameWork.h in Headers */,
 				853C4ED81E94944F000087E9 /* DemoViewController.h in Headers */,
+				85E85F4B1E95EEF1008588AB /* Custom3.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,6 +717,7 @@
 			files = (
 				85E85F3D1E95EB42008588AB /* Custom1.m in Sources */,
 				85E85F411E95EB4C008588AB /* Custom2.m in Sources */,
+				85E85F4C1E95EEF1008588AB /* Custom3.m in Sources */,
 				853C4EE61E949837000087E9 /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
